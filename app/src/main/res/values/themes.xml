@@ -4,6 +4,10 @@
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
+    <style name="CustomRatingBar" parent="@android:style/Widget.Material.RatingBar.Indicator">
+        <item name="android:progressTint">@color/red</item>
+        <item name="android:backgroundTint">@color/red</item>
+    </style>
 
     <style name="Theme.TP4" parent="Base.Theme.TP4" />
     //TEST
