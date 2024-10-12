@@ -71,7 +71,7 @@ public class PlayerAdater extends RecyclerView.Adapter<PlayerAdater.PlayerViewHo
                                 player.setStar(s); PlayerService.getInstance().update(player);
                             notifyItemChanged(holder.getBindingAdapterPosition());
                         }})
-                        .setNegativeButton("Annuller",null)
+                        .setNegativeButton("Cancel",null)
                         .create();
                 dialog.show();
 
