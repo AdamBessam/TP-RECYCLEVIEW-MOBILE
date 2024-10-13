@@ -21,7 +21,6 @@
         <item name="android:background">@android:color/holo_blue_dark</item>
         <item name="android:textColor">#FFF</item>
     </style>
-    <color name="strokeColor">#FFFFFF</color> <!-- Blanc pour le mode sombre -->
 
 
 </resources>

@@ -13,6 +13,7 @@ import android.content.res.Configuration;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.Switch;
@@ -85,9 +86,15 @@ public class ListActivity extends AppCompatActivity {
             public boolean onQueryTextChange(String newText) {
                 if (playerAdater != null) {
                     playerAdater.getFilter().filter(newText);
+                    Log.d(TAG, "Current filter: " + newText);
+
+                    if (playerAdater.getItemCount() == 0) {
+                        Log.d(TAG, "Aucun joueur trouvé pour la requête: " + newText);
+                    }
                 }
                 return true;
             }
+
         });
 
         MenuItem shareItem = menu.findItem(R.id.action_share);

@@ -5,11 +5,7 @@
     android:padding="20dp"
     android:id="@+id/parent"
     style="@style/SCREEN"
-    android:layout_marginTop="3dp"
-    android:layout_marginLeft="3dp"
-    android:layout_marginRight="3dp"
-    android:background="@drawable/borderback"
-    android:backgroundTint="@color/strokeColor"
+
     >
 <de.hdodenhof.circleimageview.CircleImageView
     android:id="@+id/img"

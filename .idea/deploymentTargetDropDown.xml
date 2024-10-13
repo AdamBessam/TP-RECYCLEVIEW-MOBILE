@@ -10,12 +10,12 @@
               <deviceKey>
                 <Key>
                   <type value="VIRTUAL_DEVICE_PATH" />
-                  <value value="C:\Users\Dell Latitude 3420\.android\avd\Android_9.avd" />
+                  <value value="C:\Users\Dell Latitude 3420\.android\avd\sam.avd" />
                 </Key>
               </deviceKey>
             </Target>
           </targetSelectedWithDropDown>
-          <timeTargetWasSelectedWithDropDown value="2024-10-12T16:35:33.720950100Z" />
+          <timeTargetWasSelectedWithDropDown value="2024-10-13T11:46:31.541822900Z" />
         </State>
       </entry>
     </value>
