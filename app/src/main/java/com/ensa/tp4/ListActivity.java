@@ -44,7 +44,7 @@ public class ListActivity extends AppCompatActivity {
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        getSupportActionBar().setTitle("PLAYERS");
+        getSupportActionBar().setTitle("MOROCCO");
         players = new ArrayList<>();
         service = PlayerService.getInstance();
         init();

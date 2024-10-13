@@ -151,6 +151,7 @@ public class PlayerAdater extends RecyclerView.Adapter<PlayerAdater.PlayerViewHo
 
         @Override
         protected void publishResults(CharSequence constraint, FilterResults results) {
+            playersFilter.clear();
             playersFilter=(List<Player>) results.values;
             this.mAdapter.notifyDataSetChanged();
 
